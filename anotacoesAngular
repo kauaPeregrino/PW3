@@ -1,0 +1,48 @@
+
+
+- Instalar Node.js
+  node -v
+  npm -v
+  
+- Instalar Angular CLI
+  npm install -g @angular/cli
+
+- Criação de projeto
+  ng new pw3-hello-world
+
+- Instalação de pacote node-modules
+  npm install
+
+
+- Componentes Angular é formado por:
+  - HTML
+  - CSS
+  - JavaScript -> TypeScript (.ts)
+  - Testes unitários (.spec.ts)
+
+- Executar a app
+  ng serve
+  ng serve -o (open browser)
+
+- Parar o "serve"
+  CTRL + C
+
+- Interpolation
+  - Caracterizada pelo uso de {{expressao}}
+  - Exemplo {{mensagem}}
+
+   - declarar variavel para o nome da imagem
+   - exibir a imagem com <img> usando a variavel
+
+
+
+
+
+
+
+
+
+
+
+
+
