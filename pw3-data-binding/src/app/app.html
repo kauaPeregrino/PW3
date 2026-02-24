@@ -1,0 +1,11 @@
+<router-outlet />
+
+  <img class="imagens" [src] = "imagem">  <!-- property binding -->
+
+
+<div class="botoes">
+<p [hidden] = "fechado">{{mensagem}}</p> <!--hidden - propriedade de verdadeirio e falso-->
+<button (click)="abrir()">Quebrar</button> <!-- property binding -->
+<button (click)="fechar()">Limpar</button>
+</div>
+<router-outlet />
