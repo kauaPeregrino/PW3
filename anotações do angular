@@ -1,0 +1,103 @@
+
+SITE PARA ESTUDAR ANGULAR -> angular.dev (cuidado em alterar versão 16 ou inferior para 17 ou superior, a partir do 17 mudou muito)
+
+- Instalar Node.js
+  node -v
+  npm -v
+
+- Instalar Angular CLI
+  npm install -g @angular/cli
+  (-g --> global)
+
+- Usar VSCode para programar
+
+- Criação do Projeto
+  ng new pw3-hello-world
+  (ng --> comando de angular)
+  (new nome-projeto --> criar projeto)
+
+---------------------------------------
+
+--NA CRIAÇÃO NO CMD--
+
+Linguagem de programação da empresa
+Utilização de IA de acordo com a empresa
+
+- Instalação do pacote node-modules (utilizar após utilizaçãoi do GitHub, ele normalmente retira a pasta)
+  npm install
+
+- Entrar no projeto
+  cd nome-projeto
+
+- Abrir projeto no VSCode
+  code .
+
+------------------------------------------
+
+--NO VSCODE--
+
+- Pasta .vscode
+  Itens para o VSCode (nada haver com o projeto)
+
+- Pasta src
+  Onde codaremos o site
+
+- Pasta .gitignore
+  Coisas que o git ira ignorar
+
+- package.json adiante
+  Configurações
+
+-------------------------------------------
+
+--NO SRC--
+
+- index.html
+  corpo do site
+  
+- main.ts (typescript)
+  
+
+- styles.css
+  estilização do index.html
+
+ng serve -o (-o abre o navegador)
+
+app-root --chamar--> app.component
+
+------------------------------------------
+
+--GITHUB--
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+
+- Componentes Angular é formado por:
+  - HTML
+  - CSS
+  - JavaScript -> TypeScript (.ts)
+  - Testes unitários (.spec.ts)
+
+
+- Parar o "serve"
+  CTRL + C
+
+- Interpolation
+  - Caracterizada pelo uso de {{expressao}}
+  - Exemplo {{mensagem}}
+
+   - declarar variavel para o nome da imagem
+   - exibir a imagem com <img> usando a variavel
+
+
+
+
+
+
+
+
+
+
+
+
