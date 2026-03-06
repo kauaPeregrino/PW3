@@ -1,0 +1,17 @@
+Instalar bootstrap - css mais facil para o angular
+
+pesquisar bootstrap no google
+
+INSTALAR TODAS AS VEZES NO PROJETO, ele n instala no angular, e sim no projeto
+
+
+	terminal
+		new terminal
+			Command prompt
+				colar o bootstrap
+					colar o conteudo do txt para o style do angular.json
+
+
+
+No bootstrap vai em docs e dps em components, em components vc vai encontrar toda a estilização
+				
