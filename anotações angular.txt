@@ -1,0 +1,27 @@
+ângular material = bootstrap mais formal - mais usado no mercado de trabalho
+
+
+para criar um componente num terminal  - ng generate componente nome (ng g c)
+
+	n g c pasta/pasta/nome
+
+criar um novo terminal e importar o MatToolBar(MatToolbar)
+
+import { Component } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbar } from '@angular/material/toolbar';
+
+@Component({
+  selector: 'app-header',
+  imports: [MatToolbar,MatButtonModule],
+  templateUrl: './header.html',
+  styleUrl: './header.css',
+})
+export class Header {
+
+}
+
+
+(verificar se o angular foi instalado "ng add @angular/material")
+
+
