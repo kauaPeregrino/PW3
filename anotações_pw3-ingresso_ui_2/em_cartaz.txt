@@ -1,0 +1,20 @@
+No arquivo em-cartaz.css, inclua:
+
+	.cartaz-container {
+	  padding: 32px 0;
+	}
+	
+	.cartaz-container h2 {
+	  color: #1D1B20;
+	  margin-bottom: 24px;
+	  font-size: 24px;
+	}
+
+No arquivo em-cartaz.html, substitua o conteúdo por:
+
+	<div class="cartaz-container">
+	  <h2>Em Cartaz</h2>
+	  <div class="card-wrapper">
+	    <app-card-filme></app-card-filme>
+	  </div>
+	</div>

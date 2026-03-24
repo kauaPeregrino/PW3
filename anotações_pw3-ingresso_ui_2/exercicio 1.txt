@@ -1,0 +1,141 @@
+1 - Copiar os arquivos da pasta 'aula_20260324/imagens' para a pasta public do projeto pw3-ingressos-ui
+
+2 - Abrir o projeto pw3-ingressos-ui no VS-Code
+
+3 - Em um Terminal, executar o comando `npm install` para baixar as dependências do projeto
+
+4 - Executar a aplicação com `ng serve -o`
+
+5 - Em outro Terninal, crie o componente footer com o comando `ng g c shared/components/footer`
+
+6 - No arquivo footer.css, inclua:
+
+	.app-footer {
+	  background-color: black;
+	  color: white;
+	  font-weight: 400;
+	  font-size: 16px;
+	  line-height: 24px;
+	  padding: 0 56px;
+	}
+	
+	:host ::ng-deep .app-footer app-container {
+	  display: block;
+	  margin: 0;
+	  max-width: none;
+	  width: auto;
+	  padding: 0 64px;
+	}
+	
+	.app-footer .inner {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+	
+	.app-footer .inner img {
+	  max-width: 100%;
+	  max-height: 40px;
+	}
+	
+	.app-footer .inner ul {
+	  padding: 0;
+	  list-style: none;
+	}
+	
+	.app-footer .inner ul.socials li {
+	  text-align: center;
+	}
+	
+	.app-footer .social-link {
+	  display: inline-block;
+	  margin: 0 12px;
+	  text-decoration: none;
+	}
+	
+	.app-footer .social-link img {
+	  width: 32px;
+	  height: 32px;
+	  cursor: pointer;
+	  transition: opacity 0.3s;
+	}
+	
+	.app-footer .social-link img:hover {
+	  opacity: 0.7;
+	}
+	
+	.app-footer .socials button {
+	  background: transparent !important;
+	  color: white;
+	}
+	
+	.app-footer .socials button::before {
+	  background: transparent !important;
+	}
+
+7 - No arquivo footer.html, substitua o conteúdo por:
+
+	<footer class="app-footer">
+	    <div class="inner">
+	      <ul>
+	        <li>
+	          <img src="logo-com-tagline.png">
+	        </li>
+	        <li>
+	          Horário de atendimento: 08h - 20h (Segunda a Sábado)
+	        </li>
+	        <li>
+	          Desenvolvido por Horácio Ingressos. Todos os direitos reservados.
+	        </li>
+	      </ul>
+	      <ul class="socials">
+	        <li>Acesse nossas redes:</li>
+	        <li>
+	          <a href="#" class="social-link">
+	            <img src="whatsapp.png">
+	          </a>
+	          <a href="#" class="social-link">
+	            <img src="instagram.png">
+	          </a>
+	          <a href="#" class="social-link">
+	            <img src="twitter.png">
+	          </a>
+	        </li>
+	      </ul>
+	    </div>
+	</footer>
+
+8 - Inclua o componente footer em app.html e visualize no navegador
+
+9 - Crie um outro componente chamado home com o comando `ng g c pages/home`
+
+10 - No arquivo home.css, inclua:
+
+	.homepage .card-wrapper {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	  row-gap: 16px;
+	  margin-bottom: 40px;
+	}
+	
+	.homepage h2 {
+	  font-size: 32px;
+	}
+
+11 - No arquivo home.html, substitua o conteúdo por:
+
+	<section class="homepage">
+	  <h2>BANNER 1</h2>
+	  <h2>EM CARTAZ</h2>
+	  <h2>BANNER 2</h2>
+	</section>
+
+12 - Inclua o componente home em app.html como a seguir:
+
+	<app-header></app-header>
+	<div class="main-content">
+	  <app-home></app-home>
+	</div>
+	<app-footer></app-footer>
+
