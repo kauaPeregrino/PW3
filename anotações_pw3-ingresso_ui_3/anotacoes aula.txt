@@ -1,0 +1,10 @@
+
+
+@input = usa um elementos do pai para filho
+
+interface angular ≠ interface java
+
+interface angular = classe java
+
+
+ng g interface pasta/nome
